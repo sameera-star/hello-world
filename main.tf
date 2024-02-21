@@ -23,7 +23,7 @@ resource "aws_instance" "web" {
   }
 }
 
-resource "aws_instance" "web" {
+resource "aws_instance" "Test1212" {
   ami           = data.aws_ami.ubuntu.id
   instance_type = "t3.micro"
 
